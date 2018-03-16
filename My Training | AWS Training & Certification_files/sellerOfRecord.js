@@ -1,0 +1,2 @@
+/** Copyright 2018 Amazon.com Inc. or its affiliates. All Rights Reserved. **/
+define(["knockoutjs","currency","viewModelHelper"],function(a,b,c){var d=function(d){this.id=a.observable(c.getPropertyValueOrDefault(d,"Id")),this.name=a.observable(c.getPropertyValueOrDefault(d,"Name")),this.marketplaceID=a.observable(c.getPropertyValueOrDefault(d,"MarketplaceID")),this.currency=a.observable(new b(c.getPropertyValueOrDefault(d,"Currency")))};return d});

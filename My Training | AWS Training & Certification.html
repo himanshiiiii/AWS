@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="icon" type="image/ico" href="https://static.aws.training/Images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.aws.training/Images/favicon.ico">
+
+<link rel="stylesheet" type="text/css" href="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/Bundle.css">
+<script type="text/javascript" async="" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/munchkin_002.js"></script><script type="text/javascript" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/kikuEnvironment.js"></script>
+<script type="text/javascript" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/requirejsconfig.js"></script>
+<script type="text/javascript" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/require.js"></script>
+<script type="text/javascript" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/main.js"></script>
+
+
+<script type="text/javascript" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/blockadblock.js"></script>
+
+    
+    <title>My Training | AWS Training &amp; Certification</title>
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fullcalendar" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/fullcalendar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="argumentNullError" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/argumentNullError.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="initializer" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/initializer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="languageOptions" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/languageOptions.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="customKoBindings" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/customKoBindings.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mapControl" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/mapControl.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/jquery_003.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/moment.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/jqueryHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="configurationRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/configurationRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="languageCodes" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/languageCodes.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="resourceManager" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/resourceManager.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="stringHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/stringHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="argumentError" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/argumentError.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nokiaMapsControl" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/nokiaMapsControl.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bingMapsControl" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/bingMapsControl.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="queryParametersHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/queryParametersHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-cookie" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/jquery_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/knockout.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrapGrid" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/bootstrapGrid.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="customTextbox" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/customTextbox.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="windowHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/windowHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrapMarkdownHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/bootstrapMarkdownHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="misc" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/misc.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="browserHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/browserHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="navigationHighlighter" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/navigationHighlighter.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="webMetrics" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/webMetrics.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idlerHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/idlerHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="userRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/userRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="markdownHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/markdownHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="datepicker" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/datepicker_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-idle-timer" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/idle-timer.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="purl" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/purl.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/bootstrap.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-timepicker" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/jquery.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap-markdown" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/bootstrap-markdown.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/effect-highlight" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/effect-highlight.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="arrayHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/arrayHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ajaxHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/ajaxHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="webServiceError" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/webServiceError.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="webServiceCallbackParameters" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/webServiceCallbackParameters.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="localizationRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/localizationRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="adobeOmniture" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/awshome_s_code.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="marketoMunchkinJs" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/munchkin.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="to-markdown" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/to-markdown.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pagedown-converter" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/Markdown_002.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dialogBox" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/dialogBox.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/i18n/datepicker-ja" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/datepicker-ja.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/i18n/datepicker-zh-CN" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/datepicker-zh-CN.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/i18n/datepicker-ko" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/datepicker-ko.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/i18n/datepicker-de" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/datepicker-de.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="invalidOperationError" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/invalidOperationError.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lodash" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/lodash.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-numeric" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/jquery-numeric.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/effect" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/effect.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/datepicker" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/datepicker.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pagedown-sanitizer" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/Markdown.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/dialog" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/dialog.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/core" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/core.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/widget" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/widget.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/button" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/button.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/draggable" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/draggable.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/mouse" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/mouse.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/position" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/position.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui/resizable" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/resizable.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="transcriptPageViewModel" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/transcriptPageViewModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="layoutPageViewModel" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/layoutPageViewModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="transcript" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/transcript.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="transcriptRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/transcriptRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="transcriptPageViewModelBase" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/transcriptPageViewModelBase.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="curriculumRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/curriculumRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="launchUrlRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/launchUrlRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="enums" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/enums.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="viewModelHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/viewModelHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectSummary" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectSummary.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="transcriptViewModelBase" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/transcriptViewModelBase.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="webBasedCourseRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/webBasedCourseRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="videoRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/videoRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="linkRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/linkRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="sessionRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/sessionRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="curriculum" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/curriculum.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="webBasedCourse" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/webBasedCourse.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="link" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/link.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="session" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/session.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="video" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/video.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="awsSessionRepository" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/awsSessionRepository.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectKind" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectKind.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectViewModelFactory" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectViewModelFactory.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lpaFailureSimulationParameters" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/lpaFailureSimulationParameters.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="sessionResponse" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/sessionResponse.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectViewModelBase" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectViewModelBase.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="registrableLearningObjectViewModelBase" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/registrableLearningObjectViewModelBase.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="course" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/course.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="awsSession" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/awsSession.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectVersion" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectVersion.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eventLocation" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/eventLocation.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectPageUrl" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectPageUrl.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="url" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/url.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dateTimeHelper" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/dateTimeHelper.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="order" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/order.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="userSubscriptionState" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/userSubscriptionState.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObject" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObject.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="language" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/language.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="currency" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/currency.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="duration" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/duration.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="classification" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/classification.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="availabilityRule" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/availabilityRule.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pricingRule" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/pricingRule.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="loClassification" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/loClassification.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="sellerOfRecord" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/sellerOfRecord.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="curriculumComponent" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/curriculumComponent.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectGroups" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectGroups.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="urlBuilder" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/urlBuilder.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="trainingProvider" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/trainingProvider.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectNotificationGroup" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectNotificationGroup.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="subscriptionProduct" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/subscriptionProduct.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="enrollmentRestrictionRule" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/enrollmentRestrictionRule.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment-with-locales" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/moment-with-locales.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="instructor" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/instructor.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="workflow" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/workflow.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectResource" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectResource.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectResourceGoToTraining" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectResourceGoToTraining.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="city" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/city.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="timezone" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/timezone.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="coordinates" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/coordinates.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="orderLineItem" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/orderLineItem.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="audience" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/audience.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="audienceBasedLearningObjectRule" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/audienceBasedLearningObjectRule.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="learningObjectNotification" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/learningObjectNotification.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="state" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/state.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="country" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/country.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="refund" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/refund.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="notificationTemplate" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/notificationTemplate.js"></script></head>
+
+<body style="margin-bottom: 411px;">
+    <div id="kiku-page-wrapper">
+        <!--[if lt IE 7 ]> <input type="hidden" class="oldie 6"> <![endif]-->
+        <!--[if IE 7 ]> <input type="hidden" class="oldie 7"> <![endif]-->
+        <!--[if IE 8 ]> <input type="hidden" class="oldie 8"> <![endif]-->
+        <!--[if IE 9 ]> <input type="hidden" class="oldie 9"> <![endif]-->
+        
+        <div id="divDeviceSizeExtraSmall" class="visible-xs-inline"></div>
+        <div id="divDeviceSizeSmall" class="visible-sm-inline"></div>
+        <div id="divDeviceSizeMedium" class="visible-md-inline"></div>
+        <div id="divDeviceSizeLarge" class="visible-lg-inline"></div>
+        
+        <input id="hiddenAntiForgeryToken" value="6re1Cg5eioIuVs0LxzoBJiTg8xAWuo5JKrmMqQ5oOxs0WWJLH8CnH86s3hxpqYVgPeoEv_sM-T__hKzF6RfRRzMQOEk1:IFxL2_5B-9tblYcg9_KivOu18N8PGivAopQSLyrxdbi4XoRiUJIYOGBVNx-yUi6ArBBnLRoF4ZbjvgO1hfHp6E8NuXd9xaK7lXjAJgpyl8TtBdJH0" type="hidden">
+
+
+
+        
+        <header class="kiku-site-header">
+            <nav class="navbar navbar-default kiku-site-nav">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#kiku-navigation-items" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="kiku-site-brand" href="https://www.aws.training/">                            
+                            <div class="kiku-site-logo"></div>
+                            <div class="kiku-site-title">training and <br>certification</div>
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="kiku-navigation-items">
+                        <ul class="nav navbar-nav navbar-left">
+                                <li><a class="kiku-site-primary-nav-link visible-xs" href="https://www.aws.training/Transcript">My Transcript</a></li>
+                                <li><a class="kiku-site-primary-nav-link visible-xs" href="https://www.aws.training/Order">My Orders</a></li>
+                                <li><a class="kiku-site-primary-nav-link visible-xs" href="https://www.aws.training/UserPreferences">My Account</a></li>
+
+
+                            <li><a class="kiku-site-primary-nav-link" href="https://www.aws.training/Training" data-bind="css: { active: currentPage() === 'training'}"><span>Find Training</span></a></li>
+                            <li><a class="kiku-site-primary-nav-link" href="https://www.aws.training/Certification" data-bind="css: { active: currentPage() === 'certification'}"><span>Certification</span></a></li>
+                            <li><a class="kiku-site-primary-nav-link" href="https://www.aws.training/Faq" data-bind="css: { active: currentPage() === 'faq'}"><span>Support</span></a></li>
+
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="kiku-site-primary-nav-link">
+                                <div class="dropdown kiku-selected-language-dd">
+                                    <span class="dropdown-toggle" data-toggle="dropdown" role="button"><span id="lblSelectedLanguage">English</span><span class="caret"></span></span>
+                                    
+                                    
+
+<ul id="divLanguageOptions" class="dropdown-menu dropdown-menu-right">
+        <li><a href="#" data-culture-code="en-us">English</a></li>
+        <li><a href="#" data-culture-code="ja-jp">日本語</a></li>
+        <li><a href="#" data-culture-code="zh-chs">中文 (简体)</a></li>
+        <li><a href="#" data-culture-code="ko-kr">한국어</a></li>
+        <li><a href="#" data-culture-code="de-de">Deutsch</a></li>
+</ul>
+                                </div>
+                            </li>
+                                                                    <li class="kiku-site-primary-nav-link">
+                                            <form class="kiku-site-primary-nav-btn" action="/Account/LogOff?returnUrl=%2Faccount%2Flogonoptions" method="post">
+                                                <input name="__RequestVerificationToken" value="PfL7ZUllDdTZZWanOzDaQ76fcw68Wv-oVZX1Rgp1Hdl6l2qsuok-p0vUkh7HN5YJXqe5yKUDIurAwXQAVqncLcSrVqp7spchUtXjrcTiS0qHUZ810" type="hidden">
+                                                <input class="kiku-action-button primary" value="Sign Out" type="submit">
+                                            </form>
+                                        </li>
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+        <nav class="kiku-site-subheader navbar hidden-xs">
+            <div id="kiku-navigation-submenu">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a class="kiku-site-sub-nav-link" href="https://www.aws.training/Transcript"><span>My Transcript</span></a></li>
+                    <li><a class="kiku-site-sub-nav-link" href="https://www.aws.training/Order">My Orders</a></li>
+                    <li><a class="kiku-site-sub-nav-link" href="https://www.aws.training/UserPreferences"><span>My Account</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="kiku-page-content">
+            <noscript>
+                
+
+
+<div id="divBrowserInstructions">
+    <div class="kiku-error-div">
+        <div class="header">It looks like scripting is disabled in your 
+browser. You must enable scripting to run this website properly. Please 
+follow the instructions below and <a 
+href="http://www.aws.training/transcript">try again</a>.</div>
+        <div class="content">
+            <ul>
+                <li>If you are using Google Chrome, follow instructions 
+from <a target='_blank' 
+href='https://support.google.com/adsense/answer/12654?hl=en'>here</a>.</li>
+
+                <li>If you are using Firefox, follow instructions from 
+<a target='_blank' 
+href='http://support.mozilla.org/en-US/kb/javascript-settings-for-interactive-web-pages'>here</a>.</li>
+
+                <li>If you are using Safari, follow instructions from <a
+ target='_blank' 
+href='http://support.apple.com/kb/PH11886'>here</a>.</li>
+                <li>If you are using Opera, follow instructions from <a 
+target='_blank' 
+href='http://www.opera.com/docs/browserjs'>here</a>.</li>
+                <li>If you are using Internet Explorer, follow 
+instructions from <a target='_blank' 
+href='https://support.microsoft.com/gp/howtoscript'>here</a>.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </noscript>
+            
+            
+
+
+<div id="divBrowserInstructions" class="kiku-nodisp">
+    <div class="kiku-error-div">
+        <div class="header">It looks like cookies are disabled in your 
+browser. You must enable cookies to run this website properly. Please 
+follow the instructions below and <a href="http://www.aws.training/transcript">try again</a>.</div>
+        <div class="content">
+            <ul>
+                <li>If you are using Google Chrome, follow instructions from <a target="_blank" href="https://support.google.com/accounts/answer/61416?hl=en">here</a>.</li>
+                <li>If you are using Firefox, follow instructions from <a target="_blank" href="http://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">here</a>.</li>
+                <li>If you are using Safari, follow instructions from <a target="_blank" href="http://support.apple.com/kb/ph11913">here</a>.</li>
+                <li>If you are using Opera, follow instructions from <a target="_blank" href="http://www.opera.com/help/tutorials/security/cookies/">here</a>.</li>
+                <li>If you are using Internet Explorer, follow instructions from <a target="_blank" href="http://windows.microsoft.com/en-us/windows-vista/block-or-allow-cookies">here</a>.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+            
+            <div id="divAdBlockerMessage" class="alert alert-warning alert-dismissible fade in text-center kiku-ad-blocker-message" data-bind="visible: $root.adBlockerIsEnabled() &amp;&amp; $root.showAdBlockerWarning()" style="display: none;">
+                <i class="fa fa-times pull-right kiku-cursor-pointer" data-bind="click: $root.onCloseAdBlockerWarningClicked"></i>
+                It looks like you are using an ad-blocker. 
+Unfortunately, most ad-blockers inadvertently also block our site 
+content. Please disable your ad-blocker to use this site.
+            </div>
+
+            <div id="divMainBody" class="kiku-nodisp" style="display: block;">
+                <div class="kiku-main-content">
+                    
+
+
+
+<input id="hiddenWebAnalyticsPageName" value="AWSTraining LMS - Transcript Page [en-US]" type="hidden">
+
+<div id="transcript-page" class="kiku-nodisp" style="display: block;">
+
+    <div class="kiku-pageheader">My Transcript</div>
+    <div class="row">
+        <div class="col-sm-7 kiku-transcript-subhead">
+            <div>
+               The Current tab displays upcoming and in-progress 
+training. After completing or withdrawing from a class, it will be moved
+ to the Archived tab. 
+            </div>            
+        </div>
+        <div class="col-sm-5 kiku-transcript-certs">
+            <div class="kiku-cta-box">                
+                <div class="kiku-cta-label">
+                    Looking for your AWS Certifications?
+                </div>
+                <div class="kiku-ui-text">
+                    Find your achieved certifications in your <a href="https://www.aws.training/CertMetrics/Sso" target="_self">AWS Certification Account</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    
+    <div>
+        <div id="divTranscriptNotification" class="alert alert-success text-center kiku-nodisp" data-bind="html: $root.transcriptNotification()"></div>
+
+        
+        <div id="divCurrentTranscriptStatusUpdateError" class="alert alert-danger text-center" style="display: none;">
+            An error occurred when updating status. Please refresh this page and try again.
+        </div>
+    </div>
+
+    
+    <ul class="nav nav-tabs bs-tabs">
+        <li role="presentation" class="nav" data-bind="click: $root.onCurrentTabClicked, css: { 'active': ($root.tabToActivate() === 0) }">
+            <a data-toggle="tab" href="#tabCurrent" aria-expanded="false">Current</a>
+        </li>
+        <li role="presentation" class="nav active" data-bind="click: $root.onPastTabClicked, css: { 'active': ($root.tabToActivate() === 1) }">
+            <a data-toggle="tab" href="#tabPast" aria-expanded="true">Archived</a>
+        </li>
+    </ul>
+
+    
+    <div class="tab-content kiku-bs-tab-content-wrapper">
+
+        
+        <div id="tabCurrent" role="tabpanel" class="tab-pane" data-bind="css: { 'active': ($root.tabToActivate() === 0) }">
+
+            <div data-bind="visible: $root.currentTranscriptErrorMessage()" style="display: none;">
+                <br>
+                <div class="alert alert-danger text-center" data-bind="text: $root.currentTranscriptErrorMessage()"></div>
+            </div>
+
+            <div data-bind="visible: (!$root.currentTranscriptErrorMessage() &amp;&amp; $root.loadCompleted)" style="">
+                
+                <div class="text-right well transparent-background no-border compact" data-bind="visible: ($root.currentTranscripts &amp;&amp; $root.currentTranscripts().length &gt; 0)" style="display: none;">
+                    <label>Total:&nbsp;</label>
+                    <span data-bind="text: $root.currentTranscripts().length">0</span>
+                </div>
+
+                
+                <div class="alert alert-info text-center" data-bind="visible: (!$root.currentTranscripts || $root.currentTranscripts().length === 0)">
+                    There are no current items in your transcript.
+                </div>
+                
+                <div data-bind="foreach: $root.currentTranscripts"></div>
+            </div>
+        </div>
+
+        
+        <div id="tabPast" role="tabpanel" class="tab-pane active" data-bind="css: { 'active': ($root.tabToActivate() === 1) }">
+            
+            <div data-bind="visible: $root.pastTranscriptErrorMessage()" style="display: none;">
+                <br>
+                <div class="alert alert-danger text-center" data-bind="text: $root.pastTranscriptErrorMessage()"></div>
+            </div>
+
+            <div data-bind="visible: (!$root.pastTranscriptErrorMessage() &amp;&amp; $root.loadCompleted)" style="">
+
+                
+                <div class="text-right well transparent-background no-border compact" data-bind="visible: ($root.pastTranscripts &amp;&amp; $root.pastTranscripts().length &gt; 0)" style="">
+                    <label>Total:&nbsp;</label>
+                    <span data-bind="text: $root.pastTranscripts().length">2</span>
+                </div>
+
+                
+                <div class="alert alert-info text-center" data-bind="visible: (!$root.pastTranscripts || $root.pastTranscripts().length === 0)" style="display: none;">
+                    There are no archived items in your transcript.
+                </div>
+
+                
+                <div data-bind="foreach: $root.pastTranscripts">
+                    <div data-bind="attr: {'id': $data.elementId(), 'class' : 'kiku-transcript-item a-box a-spacing-small a-color-alternate-background curriculum-component ' + $data.learningObject().transcriptLearningObjectCssClass()}, css: { 'kiku-idler': $data.isRefreshing(), 'inner': $data.isRefreshing() }" id="__element_transcript_3TC4MF2QZU6NHvHbhGWIVA2" class="kiku-transcript-item a-box a-spacing-small a-color-alternate-background curriculum-component curriculum">
+
+                        <div class="a-box-inner">
+                            
+                            <div class="text-left">
+                                
+
+<strong>
+    <span class="kiku-fakelink" data-bind="visible: !learningObject().isCourse(), text: learningObject().title(), click: (learningObject().status() === 1 ? $root.onNotAvailableButtonClicked : $root.showLearningObjectDetails)">AWS Technical Professional Online (Released November 2016)</span>
+    <a data-bind="visible: learningObject().isCourse(), text: learningObject().title(), attr: { 'href': learningObject().relativeDeepLink() }" style="display: none;" href="https://www.aws.training/learningobject/curriculum?id=11276">AWS Technical Professional Online (Released November 2016)</a>
+    &nbsp;
+    <strong class="text-danger" data-bind="visible: learningObject().status() === 1" style="display: none;">(<span data-bind="text: learningObject().displayStatus()">Active</span>)</strong>
+</strong>
+                                <br>
+                                <small><span data-bind="text: $data.learningObject().displayKind()">Curriculum</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span data-bind="text: $data.learningObject().shortDisplayVersion()">4.0</span></small>
+                            </div>
+
+                            
+                            <div class="text-right">
+                                
+                                <strong><span class="text-warning" data-bind="text: $data.displayStatus()">Completed</span></strong>
+                                
+                                <br>
+                                <small data-bind="visible: $data.displayLastStatusUpdateDateTime()">(<span data-bind="text: $data.displayLastStatusUpdateDateTime()">4 February, 2018</span>)</small>
+                            </div>
+
+                            <hr class="compact">
+
+                            
+                            <div class="text-left">
+                                <div class="pull-left" data-bind="visible: $data.learningObject().isIlt()" style="display: none;">
+                                    <span data-bind="text: $data.learningObject().displayStartDateTime()"></span>
+                                    <br>
+
+                                    
+                                    <div data-bind="if: $data.learningObject().isVilt() === false">
+                                        
+                                        <div data-bind="visible: $data.learningObject().location().ShouldHideLocation() === true" style="display: none;">
+                                            <label>Location: </label>
+                                            <span target="_blank" data-bind="html: $data.learningObject().location().DisplayFormattedAddress()"></span>
+                                        </div>
+                                        <div data-bind="visible: $data.learningObject().location().ShouldHideLocation() === false">
+                                            <label>Location: </label>
+                                            <a target="_blank" data-bind="html: $data.learningObject().location().DisplayFormattedAddress(),
+                                                                      attr: { href: $data.learningObject().location().MapsUrl() }" href="https://www.here.com/directions/drive/:,/?map=,,11,normal"></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div data-bind="else">
+                                        <label>Virtual Location</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            
+                            <ul class="pull-right text-right list-inline">
+                                
+                                <li data-bind="visible: $data.subscriptionActive()" style="display: none;">
+                                    Included in subscriptions
+                                </li>
+                                
+                                <li data-bind="visible: $data.allowRegistration() &amp;&amp; !$data.subscriptionRequired()" style="display: none;">
+                                    <a data-bind="attr: { 'href': $data.learningObject().oneClickRegistrationLink() }" href="https://www.aws.training/oneclickregistration?id=11276">
+                                        Register
+                                    </a>
+                                </li>
+                                
+                                <li data-bind="visible: $data.allowOpen() &amp;&amp; !$data.subscriptionRequired()">
+                                    <a data-bind="attr: { 'href': $data.openUrl() }" href="https://www.aws.training/transcript/curriculumplayer?transcriptId=3TC4MF2QZU6NHvHbhGWIVA2">
+                                        Open
+                                    </a>
+                                </li>
+                                
+                                <li data-bind="visible: $data.subscriptionRequired()" style="display: none;">
+                                    Content only available with an active subscription 
+                                    <a class="kiku-fakelink kiku-action-button primary" href="https://www.aws.training/Enrollment">
+                                        Subscribe
+                                    </a>
+                                </li> 
+                                
+                                <li data-bind="visible: $data.allowLaunch() &amp;&amp; !$data.subscriptionRequired()" style="display: none;">
+                                    <span class="kiku-fakelink" data-bind="click: $root.onOnlineTrainingLaunchButtonClicked">
+                                        Launch
+                                    </span>
+                                </li>
+                                
+                                <li data-bind="visible: $data.learningObject().isVirtualLabClassroom()
+                                                        &amp;&amp; ($data.status() === $root.enums.transcriptStatus.completed
+                                                            || $data.status() === $root.enums.transcriptStatus.registered
+                                                            || $data.status() === $root.enums.transcriptStatus.inProgress)" style="display: none;">
+                                    <a target="_blank" data-bind="attr: { 'href' : $data.virtualLabClassroomLaunchUrl() }" href="">Launch Labs</a>
+                                </li>
+                                
+                                <li data-bind="visible: $data.learningObject().status() === $root.enums.learningObjectStatus.inactive" style="display: none;">
+                                    <span class="kiku-fakelink" data-bind="click: $root.onNotAvailableButtonClicked">
+                                        Not Available
+                                    </span>
+                                </li>
+                                
+                                <li data-bind="visible: (!$data.hasCompletedEvaluation()
+                                                         &amp;&amp; $data.evaluationLink()
+                                                         &amp;&amp; $data.learningObject().status() === $root.enums.learningObjectStatus.active
+                                                         &amp;&amp; $data.status() === $root.enums.transcriptStatus.completed)">
+                                    <a data-bind="attr: { 'href': $data.evaluationLink() }" href="https://www.aws.training/evaluation?transcriptid=3TC4MF2QZU6NHvHbhGWIVA2">Evaluate</a>
+                                </li>
+                                
+                                <li class="kiku-fakelink" data-bind="visible: ($data.learningObject().isLink()
+                                                                                &amp;&amp; $data.status() === $root.enums.transcriptStatus.completed
+                                                                                &amp;&amp; $data.learningObject().status() === $root.enums.learningObjectStatus.active
+                                                                                &amp;&amp; !$data.subscriptionRequired())" style="display: none;">
+                                    <span class="kiku-fakelink" data-bind="click: $root.onLinkLaunchButtonClicked">
+                                        Launch
+                                    </span>
+                                </li>
+                                
+                                <li data-bind="visible: ($data.status() === $root.enums.transcriptStatus.completed)">
+                                    <a target="_blank" data-bind="attr: { 'href': $data.certificateUrl() }" href="https://www.aws.training/transcript/CompletionCertificateHtml?transcriptid=3TC4MF2QZU6NHvHbhGWIVA2">Completion Certificate</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div data-bind="visible: $data.learningObject().status() === $root.enums.learningObjectStatus.inactive,
+                                        attr: {'id': $data.loInactiveMessageElementId() }" class="kiku-nodisp" style="display: none;" id="__lo_inactive_alert_3TC4MF2QZU6NHvHbhGWIVA2">
+                            <div class="text-center alert alert-info">
+                                <i class="kiku-cursor-pointer pull-right fa fa-times" aria-hidden="true" data-bind="click: $root.onNotAvailableButtonClicked"></i>
+                                <span>This course has been deactivated. 
+This is most likely due to the content being out of date or no longer 
+applicable. There may be a new version available. Click ‘Training’ in 
+the top navigation menu to browse our catalog. For questions about 
+content, please</span>&nbsp;<a href="https://aws.amazon.com/en/contact-us/aws-training/?src=aws_training_faq">Contact Us</a>.
+                            </div>
+                        </div>
+                    </div>
+
+                
+                    <div data-bind="attr: {'id': $data.elementId(), 'class' : 'kiku-transcript-item a-box a-spacing-small a-color-alternate-background curriculum-component ' + $data.learningObject().transcriptLearningObjectCssClass()}, css: { 'kiku-idler': $data.isRefreshing(), 'inner': $data.isRefreshing() }" id="__element_transcript_74ayLx6_bkej3pnGCb1uUg2" class="kiku-transcript-item a-box a-spacing-small a-color-alternate-background curriculum-component curriculum">
+
+                        <div class="a-box-inner">
+                            
+                            <div class="text-left">
+                                
+
+<strong>
+    <span class="kiku-fakelink" data-bind="visible: !learningObject().isCourse(), text: learningObject().title(), click: (learningObject().status() === 1 ? $root.onNotAvailableButtonClicked : $root.showLearningObjectDetails)">AWS Business Professional Online (Released November 2016)</span>
+    <a data-bind="visible: learningObject().isCourse(), text: learningObject().title(), attr: { 'href': learningObject().relativeDeepLink() }" style="display: none;" href="https://www.aws.training/learningobject/curriculum?id=11289">AWS Business Professional Online (Released November 2016)</a>
+    &nbsp;
+    <strong class="text-danger" data-bind="visible: learningObject().status() === 1" style="display: none;">(<span data-bind="text: learningObject().displayStatus()">Active</span>)</strong>
+</strong>
+                                <br>
+                                <small><span data-bind="text: $data.learningObject().displayKind()">Curriculum</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span data-bind="text: $data.learningObject().shortDisplayVersion()">4.1</span></small>
+                            </div>
+
+                            
+                            <div class="text-right">
+                                
+                                <strong><span class="text-warning" data-bind="text: $data.displayStatus()">Completed</span></strong>
+                                
+                                <br>
+                                <small data-bind="visible: $data.displayLastStatusUpdateDateTime()">(<span data-bind="text: $data.displayLastStatusUpdateDateTime()">4 February, 2018</span>)</small>
+                            </div>
+
+                            <hr class="compact">
+
+                            
+                            <div class="text-left">
+                                <div class="pull-left" data-bind="visible: $data.learningObject().isIlt()" style="display: none;">
+                                    <span data-bind="text: $data.learningObject().displayStartDateTime()"></span>
+                                    <br>
+
+                                    
+                                    <div data-bind="if: $data.learningObject().isVilt() === false">
+                                        
+                                        <div data-bind="visible: $data.learningObject().location().ShouldHideLocation() === true" style="display: none;">
+                                            <label>Location: </label>
+                                            <span target="_blank" data-bind="html: $data.learningObject().location().DisplayFormattedAddress()"></span>
+                                        </div>
+                                        <div data-bind="visible: $data.learningObject().location().ShouldHideLocation() === false">
+                                            <label>Location: </label>
+                                            <a target="_blank" data-bind="html: $data.learningObject().location().DisplayFormattedAddress(),
+                                                                      attr: { href: $data.learningObject().location().MapsUrl() }" href="https://www.here.com/directions/drive/:,/?map=,,11,normal"></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div data-bind="else">
+                                        <label>Virtual Location</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            
+                            <ul class="pull-right text-right list-inline">
+                                
+                                <li data-bind="visible: $data.subscriptionActive()" style="display: none;">
+                                    Included in subscriptions
+                                </li>
+                                
+                                <li data-bind="visible: $data.allowRegistration() &amp;&amp; !$data.subscriptionRequired()" style="display: none;">
+                                    <a data-bind="attr: { 'href': $data.learningObject().oneClickRegistrationLink() }" href="https://www.aws.training/oneclickregistration?id=11289">
+                                        Register
+                                    </a>
+                                </li>
+                                
+                                <li data-bind="visible: $data.allowOpen() &amp;&amp; !$data.subscriptionRequired()">
+                                    <a data-bind="attr: { 'href': $data.openUrl() }" href="https://www.aws.training/transcript/curriculumplayer?transcriptId=74ayLx6_bkej3pnGCb1uUg2">
+                                        Open
+                                    </a>
+                                </li>
+                                
+                                <li data-bind="visible: $data.subscriptionRequired()" style="display: none;">
+                                    Content only available with an active subscription 
+                                    <a class="kiku-fakelink kiku-action-button primary" href="https://www.aws.training/Enrollment">
+                                        Subscribe
+                                    </a>
+                                </li> 
+                                
+                                <li data-bind="visible: $data.allowLaunch() &amp;&amp; !$data.subscriptionRequired()" style="display: none;">
+                                    <span class="kiku-fakelink" data-bind="click: $root.onOnlineTrainingLaunchButtonClicked">
+                                        Launch
+                                    </span>
+                                </li>
+                                
+                                <li data-bind="visible: $data.learningObject().isVirtualLabClassroom()
+                                                        &amp;&amp; ($data.status() === $root.enums.transcriptStatus.completed
+                                                            || $data.status() === $root.enums.transcriptStatus.registered
+                                                            || $data.status() === $root.enums.transcriptStatus.inProgress)" style="display: none;">
+                                    <a target="_blank" data-bind="attr: { 'href' : $data.virtualLabClassroomLaunchUrl() }" href="">Launch Labs</a>
+                                </li>
+                                
+                                <li data-bind="visible: $data.learningObject().status() === $root.enums.learningObjectStatus.inactive" style="display: none;">
+                                    <span class="kiku-fakelink" data-bind="click: $root.onNotAvailableButtonClicked">
+                                        Not Available
+                                    </span>
+                                </li>
+                                
+                                <li data-bind="visible: (!$data.hasCompletedEvaluation()
+                                                         &amp;&amp; $data.evaluationLink()
+                                                         &amp;&amp; $data.learningObject().status() === $root.enums.learningObjectStatus.active
+                                                         &amp;&amp; $data.status() === $root.enums.transcriptStatus.completed)">
+                                    <a data-bind="attr: { 'href': $data.evaluationLink() }" href="https://www.aws.training/evaluation?transcriptid=74ayLx6_bkej3pnGCb1uUg2">Evaluate</a>
+                                </li>
+                                
+                                <li class="kiku-fakelink" data-bind="visible: ($data.learningObject().isLink()
+                                                                                &amp;&amp; $data.status() === $root.enums.transcriptStatus.completed
+                                                                                &amp;&amp; $data.learningObject().status() === $root.enums.learningObjectStatus.active
+                                                                                &amp;&amp; !$data.subscriptionRequired())" style="display: none;">
+                                    <span class="kiku-fakelink" data-bind="click: $root.onLinkLaunchButtonClicked">
+                                        Launch
+                                    </span>
+                                </li>
+                                
+                                <li data-bind="visible: ($data.status() === $root.enums.transcriptStatus.completed)">
+                                    <a target="_blank" data-bind="attr: { 'href': $data.certificateUrl() }" href="https://www.aws.training/transcript/CompletionCertificateHtml?transcriptid=74ayLx6_bkej3pnGCb1uUg2">Completion Certificate</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div data-bind="visible: $data.learningObject().status() === $root.enums.learningObjectStatus.inactive,
+                                        attr: {'id': $data.loInactiveMessageElementId() }" class="kiku-nodisp" style="display: none;" id="__lo_inactive_alert_74ayLx6_bkej3pnGCb1uUg2">
+                            <div class="text-center alert alert-info">
+                                <i class="kiku-cursor-pointer pull-right fa fa-times" aria-hidden="true" data-bind="click: $root.onNotAvailableButtonClicked"></i>
+                                <span>This course has been deactivated. 
+This is most likely due to the content being out of date or no longer 
+applicable. There may be a new version available. Click ‘Training’ in 
+the top navigation menu to browse our catalog. For questions about 
+content, please</span>&nbsp;<a href="https://aws.amazon.com/en/contact-us/aws-training/?src=aws_training_faq">Contact Us</a>.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+<div data-bind="if: $root.isLearningObjectCurriculum()" id="divCurriculumDetails" class="kiku-nodisp"></div>
+
+<div data-bind="if: $root.isLearningObjectWbc()" id="divWebBasedCourseDetails" class="kiku-nodisp"></div>
+
+<div data-bind="if: $root.isLearningObjectLink()" id="divLinkDetails" class="kiku-nodisp"></div>
+
+<div data-bind="if: $root.isLearningObjectSession()" id="divSessionDetails" class="kiku-nodisp"></div>
+
+<div data-bind="if: $root.isLearningObjectVideo()" id="divVideoDetails" class="kiku-nodisp"></div>
+</div>
+
+<script type="text/javascript" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/transcriptPage.js"></script>
+
+                </div>
+            </div>
+        </div>
+    
+        <br><br><br>
+            <div id="kiku-main-footer" style="">
+                <div class="wrapper">
+                    <div class="row kiku-footer-social">
+                        <div class="col-sm-2 col-sm-push-10 col-xs-12">
+
+                                    <div class="kiku-site-primary-nav-link">
+                                        <form class="kiku-site-primary-nav-btn" action="/Account/LogOff?returnUrl=%2Faccount%2Flogonoptions" method="post">
+                                            <input name="__RequestVerificationToken" value="FTtSuTgqW3EyaH8jZMrsGiRS2EsNn2WZsAjSo5_otY-S5-bx7_27NYZr0r83IGXl8KlzW6ydaxT8qi8Iu0bI4-TJ62EVhkQPYMDLmv6fgnxTBSEq0" type="hidden">
+                                            <input class="kiku-action-button primary" value="Sign Out" type="submit">
+                                        </form>
+                                    </div>
+                        </div>
+                        <div class="col-sm-10 col-sm-pull-2 col-xs-12 aws-social">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/company/amazon-web-services/?src=aws_training"><i class="fa fa-linkedin"></i>AWS on LinkedIn</a></li>
+                                <li><a href="https://twitter.com/#!/awscloud/?src=aws_training"><i class="fa fa-twitter"></i>AWS on Twitter</a></li>
+                                <li><a href="https://www.facebook.com/amazonwebservices/?src=aws_training"><i class="fa fa-facebook"></i>AWS on Facebook</a></li>
+                                <li><a href="https://www.youtube.com/user/AmazonWebServices/?src=aws_training"><i class="fa fa-youtube"></i>AWS on YouTube</a></li>
+                                <li><a href="https://aws.amazon.com/blogs/aws/?src=aws_training"><i class="fa fa-list-alt"></i>AWS Blog</a></li>
+                                <li><a href="https://aws.amazon.com/blogs/apn/?src=aws_training"><i class="fa fa-list-alt"></i>AWS Partner Network (APN) Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row kiku-footer-main">
+                        
+                        <div class="col-sm-2 col-xs-12">
+                            <h3>On This Site</h3>
+                            <ul>
+                                <li><a href="https://www.aws.training/Training">Find Training</a></li>
+                                <li><a href="https://www.aws.training/Certification">Certification</a></li>                              
+                                <li><a href="https://www.aws.training/Faq">Support</a></li>                                
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-2 col-xs-12">
+                            <h3>Training and Certification Resources</h3>
+                            <ul>
+                                <li><a href="https://aws.amazon.com/training/course-descriptions/?src=aws_training">Learn about AWS Training</a></li>
+                                <li><a href="https://aws.amazon.com/certification/certification-prep/?src=aws_training">Prepare for Certification</a></li>
+                                <li><a href="https://aws.amazon.com/training/traincert-customer-testimonials/?src=aws_training">Testimonials</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-2 col-xs-12">
+                            <h3>AWS Resources</h3>
+                            <ul>
+                                <li><a href="https://aws.amazon.com/whitepapers/?src=aws_training">Whitepapers</a></li>
+                                <li><a href="https://aws.amazon.com/about-aws/events/?src=aws_training">Events</a></li>
+                                <li><a href="https://aws.amazon.com/documentation/?src=aws_training">Documentation</a></li>                                
+                                <li><a href="https://aws.amazon.com/articles/?src=aws_training">Articles and Tutorials</a></li>
+                                <li><a href="http://forums.aws.amazon.com/?src=aws_training">Discussion Forums</a></li>
+                                <li><a href="https://aws.amazon.com/tools/?src=aws_training">SDKs &amp; Tools</a></li>
+                                <li><a href="https://aws.amazon.com/console/?src=aws_training">Management Console</a></li>
+                                <li><a href="https://aws.amazon.com/faqs/?src=aws_training">AWS Services FAQ</a></li>
+                                <li><a href="https://aws.amazon.com/contact-us">Contact AWS</a></li>                                
+                                <li><a href="https://aws.amazon.com/careers/?src=aws_training">Careers</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-6 col-xs-12">
+                            <div>
+                                <h3>Private Training for Your Team</h3>
+                                <p>Work with us on a custom training plan and schedule onsite training for your organization.</p>
+                                <a href="https://aws.amazon.com/contact-us/aws-training/?src=aws_training">Contact us »</a>
+                            </div>
+                            <div>
+                                <h3>Certification Exam Prep</h3>
+                                <p>We offer exam guides, practice exams, and study materials to help prepare for your exam.</p>
+                                <a href="https://aws.amazon.com/certification/certification-prep">See all exam prep resources »</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row kiku-footer-meta">
+                        <div class="col-sm-6 col-xs-12">
+                            <ul>
+                                <li><a href="https://aws.amazon.com/training/digital-training-agreement/">Site Terms</a></li>
+                                <li>|</li>
+                                <li><a href="https://aws.amazon.com/privacy/?src=aws_training">Privacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 text-right aws-copywrite">
+                            <div>
+                                © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+
+
+<div id="divDialogBoxHtmlContent" class="kiku-nodisp kiku-dialogbox-content"></div>
+
+
+<div id="divDialogBoxConfirm" class="kiku-nodisp kiku-dialogbox-content">
+    <div class="a-box a-alert a-alert-info a-spacing-large">
+        <div class="a-box-inner a-alert-container">
+            <i class="a-icon a-icon-question"></i>
+            <div class="a-alert-content kiku-question-text">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="divDialogBoxGenericError" class="kiku-nodisp kiku-dialogbox-content">
+    <div class="a-box a-alert a-alert-error a-spacing-large">
+        <div class="a-box-inner a-alert-container">
+            <i class="a-icon a-icon-error"></i>
+            <div class="a-alert-content message">
+                An error occurred while serving your request. Please try again.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="divDialogBoxInfo" class="kiku-nodisp kiku-dialogbox-content">
+    <div class="a-box a-alert a-alert-info a-spacing-large">
+        <div class="a-box-inner a-alert-container">
+            <i class="a-icon a-icon-info"></i>
+            <div class="a-alert-content message">
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+        <input id="hiddenIsMobileDisplayMode" value="False" type="hidden">
+        
+        <input id="KIKU_CURRENT_CULTURE_CODE" value="en-US" type="hidden">
+        
+        <input id="KIKU_SESSION_TIMER_COOKIE_NAME" value="awstraining-session-timer" type="hidden">
+        
+        <input id="KIKU_SESSIONTIMEOUT_PAGE_URL" value="/Account/SessionTimedOut" type="hidden">
+        
+        <input id="KIKU_LOGIN_PAGE_URL" value="/Account/LogOnOptions" type="hidden">
+        <div id="divIdler" class="kiku-idler full kiku-nodisp"></div>
+    </div>
+    <input id="kiku-authenticated-user" type="hidden">
+<script src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/layoutPage.js"></script>
+    
+
+<img style="border-style:none; position: absolute;" alt="" src="My%20Training%20|%20AWS%20Training%20&amp;%20Certification_files/a.gif" width="1" height="1">
+
+
+<div id="ui-timepicker-div" class="ui-timepicker ui-widget ui-helper-clearfix ui-corner-all " style="display: none"></div></body></html>

@@ -1,0 +1,2 @@
+/** Copyright 2018 Amazon.com Inc. or its affiliates. All Rights Reserved. **/
+define(["knockoutjs","viewModelHelper","audienceBasedLearningObjectRule"],function(a,b,c){var d=function(b){var d=this;a.utils.extend(d,new c(b))};return d});

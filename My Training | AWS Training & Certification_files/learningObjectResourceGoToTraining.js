@@ -1,0 +1,2 @@
+/** Copyright 2018 Amazon.com Inc. or its affiliates. All Rights Reserved. **/
+define(["knockoutjs"],function(a){var b=function(b,c){var d=this;d.instanceIdentifier=a.observable(b),d.trainingKey=a.observable(c)};return b});

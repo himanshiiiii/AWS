@@ -1,0 +1,2 @@
+/** Copyright 2018 Amazon.com Inc. or its affiliates. All Rights Reserved. **/
+define(["enums"],function(a){var b=function(){};return b.isCurriculum=function(b){return b===a.learningObjectKind.Curriculum||b===a.learningObjectKind.LearningPath},b.isIlt=function(b){return b===a.learningObjectKind.IltSession||b===a.learningObjectKind.VirtualIltSession||b===a.learningObjectKind.VirtualLabClassroom},b});

@@ -1,0 +1,2 @@
+/** Copyright 2018 Amazon.com Inc. or its affiliates. All Rights Reserved. **/
+define(["stringHelper","argumentNullError","argumentError"],function(a,b,c){var d=function(){};return d.getShort=function(d){var e,f;if(a.isStringNullOrWhiteSpace(d))throw b.createInstance("fullVersion");if(f=d.match(/Version_(?:Session_)?(\d+)/))return f[1]+".0";if(e=d.split("."),3!==e.length)throw c.createInstance("'"+d+"' is not in 'Major.Minor.Patch' format.");return e[0]+"."+e[1]},d});

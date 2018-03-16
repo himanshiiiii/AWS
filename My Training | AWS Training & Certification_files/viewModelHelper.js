@@ -1,0 +1,2 @@
+/** Copyright 2018 Amazon.com Inc. or its affiliates. All Rights Reserved. **/
+define([],function(){var a=function(){};return a.getPropertyValueOrDefault=function(a,b){var c,d;return c="",null!==a&&void 0!==a&&a.hasOwnProperty(b)&&(d=a[b],null!==d&&void 0!==d&&(c=d)),c},a});

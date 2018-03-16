@@ -1,0 +1,2 @@
+/** Copyright 2018 Amazon.com Inc. or its affiliates. All Rights Reserved. **/
+define(["knockoutjs","viewModelHelper"],function(a,b){var c=function(c){var d=this;d.loUserSubscriptionState=a.observable(b.getPropertyValueOrDefault(c,"LoUserSubscriptionState")),d.subscriptionProductIds=a.observableArray(),(b.getPropertyValueOrDefault(c,"SubscriptionProductIds")||[]).forEach(function(a){d.subscriptionProductIds.push(a)},d)};return c});

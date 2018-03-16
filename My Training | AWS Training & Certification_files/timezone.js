@@ -1,0 +1,2 @@
+/** Copyright 2018 Amazon.com Inc. or its affiliates. All Rights Reserved. **/
+define(["knockoutjs","viewModelHelper"],function(a,b){var c=function(c){this.IanaId=a.observable(b.getPropertyValueOrDefault(c,"IanaId")),this.DisplayName=a.observable(b.getPropertyValueOrDefault(c,"DisplayName")),this.UtcOffsetInSeconds=a.observable(b.getPropertyValueOrDefault(c,"UtcOffsetInSeconds"))};return c});
